@@ -1,48 +1,38 @@
 ---
-name: '🐛 Bug Report'
-about: Report a reproducible bug or regression in this library.
+name: Bug report
+about: Create a report to help us improve
+title: ''
+labels: ''
+assignees: ''
+
 ---
 
-# Bug
+**Describe the bug**
+A clear and concise description of what the bug is.
 
-<!--
-  Please provide a clear and concise description of what the bug is.
-  Include screenshots if needed.
-  Please test using the latest release of the library, as maybe said bug has been already fixed.
-  If the library has multiple install methods, describe installation method (e.g., pod, not pod, with jetifier etc)
--->
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 
-## Environment info
+**Expected behavior**
+A clear and concise description of what you expected to happen.
 
-<!--
-  Run `react-native info` in your terminal and copy the results here. Also, include the *precise* version number of this library that you are using in the project
--->
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
 
-React native info output:
+**Desktop (please complete the following information):**
+ - OS: [e.g. iOS]
+ - Browser [e.g. chrome, safari]
+ - Version [e.g. 22]
 
-```bash
- // paste it here
-```
+**Smartphone (please complete the following information):**
+ - Device: [e.g. iPhone6]
+ - OS: [e.g. iOS8.1]
+ - Browser [e.g. stock browser, safari]
+ - Version [e.g. 22]
 
-Library version: x.x.x
-
-## Steps To Reproduce
-
-<!--
- Issues without reproduction steps or code are likely to stall.
--->
-
-1.
-2.
-...
-
-Describe what you expected to happen:
-
-1.
-2.
-
-## Reproducible sample code
-
-<!--
- Please add to your issue a repro, a fresh codebase with the minimal changes so that the bug can be tested in isolation
--->
+**Additional context**
+Add any other context about the problem here.

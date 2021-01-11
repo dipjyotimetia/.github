@@ -1,6 +1,10 @@
 ---
-name: '🤔 Questions and Help'
+name: "\U0001F914 Questions and Help"
 about: Use this if there is something not clear about the code or its docs.
+title: ''
+labels: ''
+assignees: ''
+
 ---
 
 # Question

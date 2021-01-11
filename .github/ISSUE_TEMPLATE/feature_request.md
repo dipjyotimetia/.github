@@ -1,28 +1,20 @@
 ---
-name: '💡 Feature Request'
-about: Submit your idea for a change in the codebase.
+name: Feature request
+about: Suggest an idea for this project
+title: ''
+labels: ''
+assignees: ''
+
 ---
 
-# Feature Request
+**Is your feature request related to a problem? Please describe.**
+A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
-<!--
-  This issue should serve for you to present or pitch an idea to the maintainers - but remember that it would be better if you were to submit a PR instead 🤗
--->
+**Describe the solution you'd like**
+A clear and concise description of what you want to happen.
 
-## Why it is needed
+**Describe alternatives you've considered**
+A clear and concise description of any alternative solutions or features you've considered.
 
-<!--
-  Please tell us a bit more of why you want this feature to be added, what's its origin
--->
-
-## Possible implementation
-
-<!--
-  It really helps if you could describe from a technical POV how this new feature would work, which code it rely on, etc
--->
-
-### Code sample
-
-<!--
-  Please show how the new code could work, if doable
--->
+**Additional context**
+Add any other context or screenshots about the feature request here.
