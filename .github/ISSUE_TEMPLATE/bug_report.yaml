@@ -69,8 +69,8 @@ body:
       render: shell
   - type: textarea
     attributes:
-      label: 👟 Steps To Reproduce
-      description: How do you trigger this bug? Please walk us through it step by step..
-      placeholder: provide some screenshots to check
+      label: 📷 screenshots
+      description: Provide some screenshots for reference
+      placeholder: attach screenshots
     validations:
       required: true    
