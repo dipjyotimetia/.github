@@ -42,7 +42,7 @@ body:
         - Windows
         - Something else
     validations:
-    required: true  
+      required: true  
   - type: dropdown
     id: browsers
     attributes:
