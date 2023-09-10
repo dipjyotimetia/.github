@@ -1,31 +1,29 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+name: "🐛 Bug Report"
+description: "Submit a bug report to help us improve"
+title: "🐛 Bug Report: "
+labels: [bug]
 projects: ["https://github.com/dipjyotimetia/HybridTestFramework", "https://github.com/dipjyotimetia/CypressTestFramework","https://github.com/dipjyotimetia/PlaywrightTestFramework"]
-assignees:
-  - octocat
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out our bug report form 🙏
   - type: textarea
     attributes:
-      label: Current Behavior
-      description: A concise description of what you're experiencing.
-    validations:
-      required: false
-  - type: textarea
-    attributes:
-      label: Expected Behavior
+      label: 👍 Expected Behavior
       description: A concise description of what you expected to happen.
     validations:
       required: false
   - type: textarea
     attributes:
-      label: Steps To Reproduce
-      description: Steps to reproduce the behavior.
+      label: 👎 Actual Behavior
+      description: A concise description of what you're experiencing.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: 👟 Steps To Reproduce
+      description: How do you trigger this bug? Please walk us through it step by step..
       placeholder: |
         1. In this environment...
         1. With this config...
@@ -33,19 +31,18 @@ body:
         1. See error...
     validations:
       required: false
-  - type: textarea
+  - type: dropdown
+    id: operating-system
     attributes:
-      label: Environment
-      description: |
-        examples:
-          - **OS**: windows 11
-          - **JDK**: 17.0
-      value: |
-          - OS:
-          - java_version:
-      render: markdown
+      label: "💻 Operating system"
+      description: "What OS is your server / device running on?"
+      options:
+        - Linux
+        - MacOS
+        - Windows
+        - Something else
     validations:
-      required: false    
+    required: true  
   - type: dropdown
     id: browsers
     attributes:
@@ -70,11 +67,10 @@ body:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
-  - type: checkboxes
-    id: terms
+  - type: textarea
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: 👟 Steps To Reproduce
+      description: How do you trigger this bug? Please walk us through it step by step..
+      placeholder: provide some screenshots to check
+    validations:
+      required: true    
