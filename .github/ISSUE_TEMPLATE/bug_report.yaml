@@ -42,7 +42,7 @@ body:
         - Windows
         - Something else
     validations:
-      required: true  
+      required: true
   - type: dropdown
     id: browsers
     attributes:
@@ -73,4 +73,4 @@ body:
       description: Provide some screenshots for reference
       placeholder: attach screenshots
     validations:
-      required: true    
+      required: true
